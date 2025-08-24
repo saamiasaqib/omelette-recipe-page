@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+
+body {
+    background-color: #f3e6d8ff;
+    font-family: 'Outfit', sans-serif;
+    color: #302d2cff;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e4ded8ff;
+    height: 0;
+    width: 100%;
+    background: none;
+}
+
+.heading,
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    font-family: 'Young Serif', sans-serif;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+    color: #854632ff;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.heading {
+    color: #302d2cff;
+}
+
+.recipe {
+    background-color: white;
+    width: 50vw;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-left: 300px;
+    padding: 30px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 2px;
+}
+
+.prep {
+    background-color: #fff5faff;
+    height: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.prep p b {
+    color: #7b284fff;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.prep ul li {
+    margin: 13px;
+    margin-left: 30px;
+}
+
+.prep li::marker {
+    color: #7b284fff;
+}
+
+.ingredients ul li {
+    padding: 8px;
+}
+
+.ingredients li::marker {
+    color: #854632ff;
+}
+
+.instructions ol li {
+    padding: 8px;
+}
+
+.instructions li::marker {
+    color: #854632ff;
+}
+
+.nutrition .nutri_name {
+    text-align: left;
+    padding: 6px;
+    font-weight: normal;
+}
+
+.nutrition .nutri_val {
+    text-align: left;
+    color: #854632ff;
+}
+
+.nutrition table:not(:last-child) {
+    border-bottom: 1px solid #e4ded8ff;
+}
+
+.trow-separator hr {
+    width: 643px;
+}
