@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
 
+:root {
+    --color-stone-100: #f3e6d8ff;
+    --color-stone-150: #e4ded8ff;
+    --color-stone-600: #5f574eff;
+    --color-stone-900: #302d2cff;
+    --color-brown-800: #854632ff;
+    --color-rose-800: #7b284fff;
+    --color-rose-50: #fff5faff;
+}
+
 body {
-    background-color: #f3e6d8ff;
+    background-color: var(--color-stone-100);
     font-family: 'Outfit', sans-serif;
-    color: #302d2cff;
+    color: var(--color-stone-900);
 }
 
 hr {
     border: none;
-    border-top: 1px solid #e4ded8ff;
+    border-top: 1px solid var(--color-stone-150);
     height: 0;
     width: 100%;
     background: none;
@@ -25,13 +35,13 @@ hr {
 .ingredients h2,
 .instructions h2,
 .nutrition h2 {
-    color: #854632ff;
+    color: var(--color-brown-800);
     letter-spacing: 1px;
     font-weight: 600;
 }
 
 .heading {
-    color: #302d2cff;
+    color: var(--color-stone-900);
 }
 
 .recipe {
@@ -42,6 +52,11 @@ hr {
     border-radius: 10px;
     margin-left: 300px;
     padding: 30px;
+    margin-top: 190px;
+    margin-bottom: 190px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
 .img img {
@@ -52,7 +67,7 @@ hr {
 }
 
 .prep {
-    background-color: #fff5faff;
+    background-color: var(--color-rose-50);
     height: 170px;
     padding-top: 10px;
     padding-left: 10px;
@@ -60,7 +75,7 @@ hr {
 }
 
 .prep p b {
-    color: #7b284fff;
+    color: var(--color-rose-800);
     font-size: 20px;
     margin-left: 25px;
 }
@@ -71,7 +86,7 @@ hr {
 }
 
 .prep li::marker {
-    color: #7b284fff;
+    color: var(--color-rose-800);
 }
 
 .ingredients ul li {
@@ -79,7 +94,7 @@ hr {
 }
 
 .ingredients li::marker {
-    color: #854632ff;
+    color: var(--color-brown-800);
 }
 
 .instructions ol li {
@@ -87,7 +102,7 @@ hr {
 }
 
 .instructions li::marker {
-    color: #854632ff;
+    color: var(--color-brown-800);
 }
 
 .nutrition .nutri_name {
@@ -98,11 +113,11 @@ hr {
 
 .nutrition .nutri_val {
     text-align: left;
-    color: #854632ff;
+    color: var(--color-brown-800);
 }
 
 .nutrition table:not(:last-child) {
-    border-bottom: 1px solid #e4ded8ff;
+    border-bottom: 1px solid var(--color-stone-150);
 }
 
 .trow-separator hr {
