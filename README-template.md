@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/saamiasaqib/omelette-recipe-page/)
 
 ### Built with
 
@@ -30,7 +30,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned about the <hr> tag and how to use it for the separators in my Omelette Recipe Page. It
 
 ### Continued development
 
@@ -38,8 +38,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub - saamiasaqib(https://www.github.com/saamiasaqib)
-- LinkedIn - [@yourusername](https://www.linkedin.com/yourusername)
+- Frontend Mentor - [@saamiasaqib](https://www.frontendmentor.io/profile/saamiasaqib)
+- GitHub - [@saamiasaqib](https://www.github.com/saamiasaqib)
+- LinkedIn - [@Saamia Saqib](https://www.linkedin.com/in/saamia-saqib-94889b375/)
 
 Thnnkssss🐍😉
